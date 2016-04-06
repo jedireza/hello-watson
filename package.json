@@ -1,0 +1,23 @@
+{
+  "name": "hello-watson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "semistandard",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "watson-developer-cloud": "1.3.3"
+  },
+  "devDependencies": {
+    "pre-commit": "1.1.2",
+    "semistandard": "7.0.5"
+  },
+  "pre-commit": [
+    "lint"
+  ]
+}
